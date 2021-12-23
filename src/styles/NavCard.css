@@ -1,0 +1,23 @@
+.NavCard {
+  width: 10vmax;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.NavCard > img {
+  width: 10vmax;
+}
+
+.NavCard > p {
+  margin: 0;
+}
+
+.NavCard > span {
+  color: orangered;
+}
+
+.NavCard:hover {
+  box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.5);
+  transform: translateY(-0.2vmax);
+}
